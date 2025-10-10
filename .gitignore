@@ -1,1 +1,4 @@
 .idea
+
+# Ignore nested repo artifacts
+sophiebuel/

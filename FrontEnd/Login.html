@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Sophie Bluel - Architecte d'intérieur</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Syne:wght@700;800&family=Work+Sans&display=swap"
+      rel="stylesheet"
+    />
+    <meta name="description" content="" />
+    <link rel="stylesheet" href="./assets/style.css" />
+  </head>
+  <body>
+    <header>
+      <h1>
+        <a href="index.html">Sophie Bluel</a>
+        <span>Architecte d'intérieur</span>
+      </h1>
+      <nav>
+        <ul>
+          <li><a href="index.html#portfolio">projets</a></li>
+          <li><a href="index.html#contact">contact</a></li>
+          <li id="loginLink" aria-current="page">login</li>
+          <li><img src="./assets/icons/instagram.png" alt="Instagram" /></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <section id="login">
+        <h2>Connexion</h2>
+        <div
+          class="error-message"
+          id="login_error"
+          role="alert"
+          aria-live="polite"
+        ></div>
+        <form action="#" method="post" id="login-form" novalidate>
+          <label for="email">E-mail</label>
+          <input
+            type="email"
+            name="email"
+            id="email"
+            placeholder="Votre e-mail"
+            autocomplete="email"
+            required
+          />
+
+          <label for="password">Mot de passe</label>
+          <input
+            type="password"
+            name="password"
+            id="password"
+            placeholder="Votre mot de passe"
+            autocomplete="current-password"
+            required
+          />
+
+          <input type="submit" value="Se connecter" />
+        </form>
+        <div class="oubli">
+          <a href="#">Mot de passe oublié ?</a>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <nav>
+        <ul>
+          <li>Mentions Légales</li>
+        </ul>
+      </nav>
+    </footer>
+  </body>
+</html>
